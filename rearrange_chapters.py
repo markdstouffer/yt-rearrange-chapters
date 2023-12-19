@@ -18,7 +18,7 @@ def escape_filename(filename):
 if __name__ == "__main__":
     opts, args = getopt.getopt(sys.argv[1:], "hxko:")
     if len(args) < 1:
-      print("Usage: extract_chapters.py [video_url]")
+      print("Usage: rearrange_chapters.py [video_url]")
       exit()
     else:
       url = args[0]
